@@ -1,0 +1,48 @@
+*{
+    /* padding: 0; */
+    /* margin: 0; */
+    box-sizing: border-box;
+    font-family: cursive;
+    background-color: aqua;
+}
+
+.nav a{
+    text-decoration: none;
+    display: flex;
+    /* justify-content: space-between; */
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    background-color:orange ;
+}
+
+footer a,p{
+    background-color: black;
+    color: white;
+}
+
+dl  dt{
+    background-color: orangered;
+}
+dl dd{
+    color: white;
+}
+
+ul li{
+    list-style-type: disc;
+    color: white;
+    background-color: chartreuse;
+}
+
+.break li{
+    background-color: pink;
+    color: red;
+
+}
+
+ol li{
+    background-color: crimson;
+    color: green;
+}
