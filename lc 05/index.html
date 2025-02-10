@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - let learns it</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="Mainh1">My Form</h1>
+<form action="thankyou.html" method="get">
+    <div>
+        <label for="fname">First Name:</label>
+        <input type="text" name="name" id="fname" placeholder="Enter your name" required autofocus>
+    </div>
+    <div>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="name" id="lname" placeholder="Enter your name" required autofocus>
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="example@gmail.com" required autofocus>
+    </div>
+
+    <div>
+        <label for="number">Phone No:</label>
+        <input type="number" name="number" id="number" placeholder="+923160243208" required>
+    </div>
+
+    <div>
+        <label for="gender">Selct Gender</label>
+        <input type="radio" name="gender" id="gender">Female
+        <input type="radio" name="gender" id="gender">Male
+    </div>
+    <div>
+        <label for="city">Select the city</label>
+        <select name="city" id="city">
+            <option value="Karachi">Karachi</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Karachi">Karachi</option>
+        </select>
+    </div>
+
+    <div>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+    </div>
+</form>    
+
+</body>
+</html>
